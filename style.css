@@ -15,7 +15,7 @@ body{
 /* Coming soon area css start */
 
 .coming-soon-area{
-    background-image: url(arrangehere.jfif);
+    background-image: url(asset/img/helicopter.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -23,6 +23,7 @@ body{
     min-height: 100vh;
     color: #fff;
     padding: 5px 0px;
+    animation: change 25s infinite ease-in-out;
 }
 .container{
     margin: auto;
@@ -124,4 +125,15 @@ body{
     .form input[type="email"]{
         width: 100%;
     }
+}
+@keyframes change {
+0%{
+    background-image: url(asset/img/phone.jpg);
+}  
+30%{
+    background-image: url(asset/img/train.jpg);
+} 
+90%{
+    background-image: url(asset/img/helicopter.jpg);
+}
 }
