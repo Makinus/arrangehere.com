@@ -26,6 +26,7 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     animation: change 25s infinite ease-in-out;
+    min-height: 80vh;
 }
 .container{
     margin: auto;
