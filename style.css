@@ -15,14 +15,16 @@ body{
 /* Coming soon area css start */
 
 .coming-soon-area{
-    background-image: url(asset/img/helicopter.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
     width: 100%;
     min-height: 100vh;
     color: #fff;
     padding: 5px 0px;
+}
+.product-image-area {
+    background-image: url(assets/img/coffeeset.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     animation: change 25s infinite ease-in-out;
 }
 .container{
@@ -128,12 +130,12 @@ body{
 }
 @keyframes change {
 0%{
-    background-image: url(asset/img/phone.jpg);
+    background-image: url(assets/img/carrom.jpg);
 }  
 30%{
-    background-image: url(asset/img/train.jpg);
+    background-image: url(assets/img/barbiegirl.jpeg);
 } 
 90%{
-    background-image: url(asset/img/helicopter.jpg);
+    background-image: url(assets/img/helicopter.jpg);
 }
 }
