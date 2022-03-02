@@ -130,13 +130,13 @@ body{
     }
 }
 @keyframes change {
-0%{
-    background-image: url(assets/img/carrom.jpg);
+20%{
+    background-image: url(assets/img/Cards.jpg);
 }  
 30%{
-    background-image: url(assets/img/barbiegirl.jpeg);
+    background-image: url(assets/img/remote.jpg);
 } 
-90%{
-    background-image: url(assets/img/helicopter.jpg);
+60%{
+    background-image: url(assets/img/duck.jpeg);
 }
 }
