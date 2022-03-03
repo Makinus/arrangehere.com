@@ -1,6 +1,12 @@
 // Set the date we are counting down to
 var countdownDate = new Date("03 10, 2022 18:01:00").getTime();
-
+function triggerEmail() {
+var formData = $('form.sendMail').serialize();	
+    $.ajax({
+        type: "POST",                
+        url: 'https://htmlservice.herokuapp.com/api/arrangehere',				
+        data: formData});
+        }
 var x = setInterval(function(){
 
     // Get today's date and time

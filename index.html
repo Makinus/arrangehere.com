@@ -34,9 +34,10 @@
                     <h1>We are coming soon</h1>
                     <h4>We launch our new website soon. Please stay updated and follow.</h4>
                     <div class="form">
-                        <form action="#">
+                        <form action="#" method="post" role="form" class="sendMail">
+                            <input type="hidden" name="subject" value="Subscription request received" />
                             <input type="email" class="email-field" name="email" placeholder="Enter email address" required>
-                            <input type="submit" value="Notify Me">
+                            <input type="submit" onclick="triggerEmail()" value="Notify Me">
                         </form>
                     </div>
                     <div class="countdown-timer">
@@ -78,5 +79,6 @@
           </div>-->
     </section>
     <script src="app.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
 </body>
 </html>
