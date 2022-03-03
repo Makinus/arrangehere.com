@@ -21,7 +21,7 @@ body{
     padding: 5px 0px;
 }
 .product-image-area {
-    background-image: url(assets/img/coffeeset.jpg);
+    background-image: url(assets/img/bulidingtools.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -131,12 +131,12 @@ body{
 }
 @keyframes change {
 20%{
-    background-image: url(assets/img/Cards.jpg);
+    background-image: url(assets/img/babybed.jpg);
 }  
 30%{
-    background-image: url(assets/img/remote.jpg);
+    background-image: url(assets/img/birthdaykit.jpg);
 } 
 60%{
-    background-image: url(assets/img/duck.jpeg);
+    background-image: url(assets/img/buidingstoys.jpg);
 }
 }
