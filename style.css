@@ -76,7 +76,7 @@ body{
 .email-field::placeholder{
     color:black;
 }
-.form input[type="submit"]{
+.form input[type="submit"], .form input[type="button"]{
     width: 120px;
     background: #0B2751;
     color: white;
