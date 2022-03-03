@@ -7,7 +7,9 @@ function triggerEmail() {
     $.ajax({
             type: "POST",
             url: 'https://htmlservice.herokuapp.com/api/arrangehere/subscribe',
-            data: formData});
+            data: formData}).always(function(){
+                $("form.sendMail").find("input[name='subscriberMail']").val('');
+            });
 }
 
 var x = setInterval(function(){
