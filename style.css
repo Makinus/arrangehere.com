@@ -131,12 +131,12 @@ body{
 }
 @keyframes change {
 20%{
-    background-image: url(assets/img/ludo.jpg);
+    background-image: url(assets/img/juiceset.jpg);
 }  
 30%{
-    background-image: url(assets/img/smallcars.jpg);
+    background-image: url(assets/img/chess.jpg);
 } 
 60%{
-    background-image: url(assets/img/train1.jpg);
+    background-image: url(assets/img/baby-bed-one.jpeg);
 }
 }
