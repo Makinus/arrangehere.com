@@ -131,7 +131,7 @@ body{
 }
 @keyframes change {
 20%{
-    background-image: url(assets/img/wooden-carrom.jpg);
+    background-image: url(assets/img/juiceset.jpg);
 }  
 30%{
     background-image: url(assets/img/train.jpg);
